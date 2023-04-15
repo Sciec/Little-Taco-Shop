@@ -240,6 +240,48 @@ a:active {
   text-align: center;
 }
 
+/* || SOCIALS */
+.socials {
+  background-color: rgb(39, 103, 134);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.social__info {
+  border-right: 2px solid #fff;
+  position: relative;
+}
+
+.social__info h4,
+.social__info p {
+  position: absolute;
+}
+
+.social__info h4 {
+  left: 15rem;
+}
+
+.social__info p {
+  left: 12.3rem;
+  top: 1.1rem;
+}
+
+.social__icons img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.social__icons ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.social__icons ul li {
+  display: grid;
+  justify-content: center;
+}
+
 /* || MAIN */
 .main {
   padding: var(--PADDING-TB) var(--PADDING-SIDE);
